@@ -1,0 +1,45 @@
+{
+  "name": "@dtjv/uniq-array-by",
+  "version": "1.0.0",
+  "description": "Create an array of unique values by object property",
+  "author": {
+    "name": "David Valles",
+    "email": "davidtjvalles@gmail.com",
+    "url": "https://dtjv.io"
+  },
+  "repository": "dtjv/uniq-array-by",
+  "keywords": [
+    "array",
+    "unique",
+    "object",
+    "property"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "exports": "./index.js",
+  "engines": {
+    "node": ">=12.20"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "format": "prettier -w .",
+    "lint": "eslint . && tsd",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest test --coverage=true"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "jest": "27.2.1",
+    "prettier": "2.4.1",
+    "tsd": "0.17.0"
+  },
+  "dependencies": {
+    "dot-prop": "6.0.1"
+  },
+  "jest": {
+    "transform": {}
+  }
+}
