@@ -1,3 +1,5 @@
+**This project is archived**
+
 # uniq-array-by
 
 Create an array of unique values by object property.
